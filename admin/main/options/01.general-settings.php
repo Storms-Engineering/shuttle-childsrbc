@@ -327,7 +327,8 @@ class shuttle_nav_menu_responsive extends Walker_Nav_Menu{
 
         // Insert sub-menu titles
 		if ( $depth > 0 ) {
-			$title = str_repeat('&#45; ', $depth ) . $item->title;
+			//Storms Edit: Changed this to a bullet 1-17-19
+			$title = str_repeat('&bull; ', $depth ) . $item->title;
 		}
 
         // Structure of output
