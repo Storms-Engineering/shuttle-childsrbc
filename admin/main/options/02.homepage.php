@@ -435,7 +435,7 @@ $shuttle_homepage_section4_link  = shuttle_var ( 'shuttle_homepage_section4_link
 						}
 				echo	'</div>',
 						'<div class="iconmain">',
-						'<h4>' . esc_html( $shuttle_homepage_section4_title ) . '</h4>' . wpautop( esc_html( do_shortcode ( $shuttle_homepage_section4_desc ) ) );
+						'<h3>' . esc_html( $shuttle_homepage_section4_title ) . '</h3>' . wpautop( esc_html( do_shortcode ( $shuttle_homepage_section4_desc ) ) );
 					if ( ! empty( $shuttle_homepage_section4_link ) ) {
 						echo '<p class="iconurl"><a class="" href="' . esc_url( $shuttle_homepage_section4_link ) . '">' . __( 'Read More', 'shuttle' ) . '</a></p>';
 					}
