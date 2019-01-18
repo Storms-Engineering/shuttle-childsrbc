@@ -2252,6 +2252,16 @@ li.pag-next {
 #intro.option1 .page-title {
 	width: 100%;
 }
+
+/*Storms edit: adding intro-image so I can style this easier and making intro images better for mobile 1-18-19*/
+@media only screen and (max-width: 600px) {
+  #intro.option1 {
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   
+  }
+}
+
 #intro.option2 .page-title,
 #intro.option2 #breadcrumbs {
 }
