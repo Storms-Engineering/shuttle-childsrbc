@@ -1606,6 +1606,13 @@ li.pag-next {
 #slider .rslides-inner:hover a.rslides_nav.next {
 	right: 0px;
 }
+/*Storms Edit: Hide tabs when mobile 1-18-19*/
+@media only screen and (max-width: 600px) {
+  #slider .rslides_tabs {
+    display:none;
+  }
+}
+
 #slider .rslides_tabs {
 	position: absolute;
 	z-index: 99;
