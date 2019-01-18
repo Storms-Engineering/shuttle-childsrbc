@@ -173,7 +173,8 @@ $shuttle_homepage_sliderimage4_link  = shuttle_var ( 'shuttle_homepage_sliderima
 				if ( ! empty( $slide['slide_link'] ) ) {
 
 					if ( empty( $slide['slide_button'] ) ) {
-						$slide['slide_button'] = __( 'Camp Page', 'shuttle' );
+						//Storms Edit: Changed this to learn mroe
+						$slide['slide_button'] = __( 'Learn More', 'shuttle' );
 					}
 
 					echo '<div class="featured-link">',
