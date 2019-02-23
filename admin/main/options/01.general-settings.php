@@ -21,11 +21,13 @@ function shuttle_custom_logo() {
 			$output = get_custom_logo();
 		}
 	}
-	/*Storm Edit: Makes logo and site title appear together instead of one or another*/
+	/*Storms Edit: Makes logo and site title appear together instead of one or another*/
 	// else {
 		$output .= '<a style="float:right; margin-left:10px;" rel="home" href="' . esc_url( home_url( '/' ) ) . '">';
+		/* Commenting this out since we don't need a site title right now Storms Edit: 2/22/2019
 		$output .= '<h1 rel="home" class="site-title" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '">' . esc_html( get_bloginfo( 'name' ) ) . '</h1>';
 		$output .= '<h2 class="site-description" title="' . esc_attr( get_bloginfo( 'description', 'display' ) ) . '">' . esc_html( get_bloginfo( 'description' ) ) . '</h2>';
+		*/
 		$output .= '</a>';
 	//}
 

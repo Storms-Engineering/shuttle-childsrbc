@@ -719,9 +719,9 @@ li.pag-next {
 #logo,
 #logo-sticky {
 	float: left;
-	/*Storms Edit: So the header hugs the top of the page better*/
-	margin-top: 15px;
-	margin-left:5%;
+	/*Storms Edit: So the header hugs the top of the page better, also the image margin top was unecessary for our image 2/22/2019*/
+	/*margin-top: 15px;*/
+	margin-left:1%;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -730,8 +730,8 @@ li.pag-next {
 }
 #logo img,
 #logo-sticky img {
-	width: auto;
-	max-height: 45px;
+	max-width: 400px;
+	max-height: 100px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
