@@ -38,7 +38,9 @@
 		margin: 10px 0;
 	}
 	#logo img {
-		max-height: 45px;
+		/*Storms edit 2/22/2019 changing logo for mobile*/
+		max-height: 60px;
+		max-width: 250px;
 	}
 	#logo img,
 	#logo h1 {
