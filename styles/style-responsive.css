@@ -38,13 +38,18 @@
 		margin: 10px 0;
 	}
 	#logo img {
-		/*Storms edit 2/22/2019 changing logo for mobile*/
-		max-height: 60px;
+		/*Storms edit 2/22/2019 changing logo for mobile
+		updated: 4/10/2019*/
+		/*max-height: 75px;*/
 		max-width: 250px;
+		margin-top: -20px;
+		margin-bottom: -15px;
+		margin-left:-20px;
 	}
 	#logo img,
 	#logo h1 {
-		margin: 0;
+		/*Storms edit: 4/10/2019 - Making img fill better*/
+		/*margin: 0;*/
 		float: left;
 	}	
 	#header-core {
