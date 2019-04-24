@@ -125,7 +125,8 @@ blockquote, q {
 	position: relative;
 	display: block;
 	color: #FFF;
-	background: #13aff0;
+	/*Storms Edit: 4/24/2019/ changing background of blockqoute color*/
+	background: #3f7856;
 	padding: 25px 25px 25px 70px;
 	margin-bottom: 20px;
 }
