@@ -177,7 +177,8 @@ button,
 input,
 select,
 textarea {
-	color: #767676;
+	/*Storms Edit 6/18/2019 Color change of fonts*/
+	color: black;
 	font-family: Source Sans Pro, sans-serif;
 	font-size: 16px;
 	font-style: normal;
