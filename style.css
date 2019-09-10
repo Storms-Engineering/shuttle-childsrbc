@@ -344,7 +344,7 @@ input[type=tel],
 select,
 textarea {
 	background: #fff;
-	border: 1px solid #eee;
+	border: 1px solid #139eb5;/*Storms Edit 9/10/2019 changed color of inputs*/
 	/*padding: 14px 20px;*/
 }
 input[type=text]:focus,
