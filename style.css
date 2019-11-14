@@ -177,7 +177,8 @@ button,
 input,
 select,
 textarea {
-	color: #767676;
+	/*Removing color update - Brayden Storms 11/14/2019
+	color: #767676;*/
 	font-family: Source Sans Pro, sans-serif;
 	font-size: 16px;
 	font-style: normal;
