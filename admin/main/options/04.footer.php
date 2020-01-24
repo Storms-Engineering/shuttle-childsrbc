@@ -326,7 +326,7 @@ add_action( 'body_class', 'shuttle_input_footerscroll');
 
 function shuttle_input_copyright() {
 
-	printf( __( 'Modification of %1$s by Brayden Storms. Powered by %2$s.', 'shuttle' ) , '<a href="https://shuttlethemes.com/" target="_blank">Shuttle Themes</a>', '<a href="//www.wordpress.org/" target="_blank">WordPress</a>  <a href="https://solidrockbiblecamp.com/wp-content/plugins/SRBC/report_query.php?report=camp_numbers" style="text-decoration:none;color:black;cursor:auto;">Ω</a>'); 
+	printf( __( 'Modification of %1$s by Brayden Storms. Powered by %2$s.', 'shuttle' ) , '<a href="https://shuttlethemes.com/" target="_blank">Shuttle Themes</a>', '<a href="//www.wordpress.org/" target="_blank">WordPress</a>'); 
 }
 
 
