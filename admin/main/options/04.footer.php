@@ -254,7 +254,6 @@ $shuttle_subfooter_widgetswitch = shuttle_var ( 'shuttle_subfooter_widgetswitch'
 $shuttle_subfooter_widgetclose  = shuttle_var ( 'shuttle_subfooter_widgetclose' );
 
 	if ( $shuttle_subfooter_widgetswitch !== "1" and ! empty( $shuttle_subfooter_layout )  ) {
-		var_dump($shuttle_subfooter_layout);
 		// Output sub-footer widgets close button
 		if ( $shuttle_subfooter_widgetclose == '1' ) {
 			echo '<div id="sub-footer-close"><div id="sub-footer-close-core"></div></div>';	
