@@ -732,7 +732,8 @@ li.pag-next {
 }
 #logo img,
 #logo-sticky img {
-	max-width: 400px;
+	/*Storms Edit: Changed the picture ratio size so the logo would look better 3/20/2020*/
+	max-width: 320px;
 	max-height: 100px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
